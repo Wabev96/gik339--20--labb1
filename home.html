@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Labb 1 grupp 20</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="body">
+    <header class="header header--margin-left">
+      <h2 class="header__heading">Labb 1 - Grupp 20</h2>
+
+      <div class="card">
+        <!-- 1 Input-element med tillhörande label -->
+        <div class="label-input">
+          <label for="color" class="label">Färg</label>
+          <input type="text" id="color" name="color" class="textfield" />
+        </div>
+
+        <!-- 2 Input-element med tillhörande label -->
+        <div class="label-input">
+          <label for="content" class="label">Innehåll</label>
+          <input type="text" id="content" name="content" class="textfield" />
+        </div>
+
+        <!-- 3 Input-element med tillhörande label --->
+        <div class="label-input label-box">
+          <label for="divStyle" class="label">Stil på box</label>
+          <input
+            type="checkbox"
+            id="divStyle"
+            name="divStyle"
+            class="checkbox"
+          />
+        </div>
+        <!-- button-element -->
+        <div class="button-section">
+          <button class="delete-button">Ta Bort</button>
+        </div>
+        <div class="tom-div"></div>
+      </div>
+    </header>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
